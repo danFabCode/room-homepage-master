@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-auto-rows: minmax(auto,150px)
+
+    
+}
+.one{
+    background: url(images/desktop-image-hero-1.jpg) center no-repeat;
+    background-size:cover;  
+    grid-column:1/8;
+    grid-row: 1/4;
+    padding: 40px;
+
+}
+.two{
+    grid-column:8/13;
+    grid-row: 1/4;
+    padding: 100px;
+    line-height: 25px;
+}
+.headertext{
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0 0 15px;
+}
+.content{
+    margin: 10px 0;
+}
+.shop_now{
+    letter-spacing: 10px;
+    padding: 20px 0;
+    font-weight: bold;
+
+}
+.shop_now img:active{
+    position: relative;
+    right: 2px;
+
+}
+
+
+
+
+
+
+
+.three{
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+
+
+
+.four{
+    grid-column:4/10;
+    grid-row: 4/5;
+
+    padding: 40px;
+   
+}
+.five{
+    grid-column: 10/13;
+    grid-row: 4/5;
+}
+.head{
+    display: flex; 
+    align-items: center;
+    gap: 30px;
+    
+}
+.logo{
+    width: 100px;
+    height: 20px;
+}
+li{
+    list-style-type: none;
+    margin:0 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+ul{
+    display: flex;
+    
+}
